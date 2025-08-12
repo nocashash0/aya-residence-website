@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aya Residence Ltd - Expert in Short-Let & Airbnb Management</title>
+    <meta name="description" content="Expert in Short-Let & Airbnb Management. Turn empty rooms into steady income — stress-free!">
+    <link rel="stylesheet" href="aya-residence.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="bg-white text-gray-800">
+    <!-- Header -->
+    <header class="header sticky top-0 z-40 w-full border-b bg-white/95 backdrop-blur-sm">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">🏢</div>
+                    <span class="logo-text">Aya Residence Ltd</span>
+                </div>
+                <nav class="nav-menu">
+                    <a href="#services" class="nav-link">Our Services</a>
+                    <a href="#how-it-works" class="nav-link">How It Works</a>
+                    <a href="#blog" class="nav-link">Blog</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <a href="#contact" class="nav-link">Invest With Us</a>
+                </nav>
+                <button class="cta-button">Get Started Today</button>
+                <button class="mobile-menu-btn">
+                    <span class="sr-only">Toggle menu</span>
+                    <div class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">
+                        <span class="typing-animation">Expert in Short-Let & Airbnb Management</span>
+                        <br>
+                        <span class="hero-subtitle">
+                            🏠 Landlord or homeowner? Turn empty rooms into steady income — stress-free! 💸
+                        </span>
+                    </h1>
+                    <p class="hero-description">
+                        Look at how much more we got our clients <span class="arrow-down">👇</span>
+                    </p>
+                </div>
+                
+                <!-- Property Carousel -->
+                <div class="property-carousel">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <div class="property-card">
+                                <div class="property-image">🏠</div>
+                                <div class="property-info">
+                                    <h3>Luxury 2-Bed Apartment</h3>
+                                    <p class="location">📍 Central London</p>
+                                    <div class="income-stats">
+                                        <div class="stat">
+                                            <span class="label">Before:</span>
+                                            <span class="value">£1,200/month</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="label">After:</span>
+                                            <span class="value">£3,800/month</span>
+                                        </div>
+                                    </div>
+                                    <div class="improvement">
+                                        <span class="percentage">+217%</span>
+                                        <span class="text">Income Increase</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="property-card">
+                                <div class="property-image">🏡</div>
+                                <div class="property-info">
+                                    <h3>Modern Studio Flat</h3>
+                                    <p class="location">📍 Manchester</p>
+                                    <div class="income-stats">
+                                        <div class="stat">
+                                            <span class="label">Before:</span>
+                                            <span class="value">£800/month</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="label">After:</span>
+                                            <span class="value">£2,100/month</span>
+                                        </div>
+                                    </div>
+                                    <div class="improvement">
+                                        <span class="percentage">+163%</span>
+                                        <span class="text">Income Increase</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-slide">
+                            <div class="property-card">
+                                <div class="property-image">🏘️</div>
+                                <div class="property-info">
+                                    <h3>Family House</h3>
+                                    <p class="location">📍 Birmingham</p>
+                                    <div class="income-stats">
+                                        <div class="stat">
+                                            <span class="label">Before:</span>
+                                            <span class="value">£1,500/month</span>
+                                        </div>
+                                        <div class="stat">
+                                            <span class="label">After:</span>
+                                            <span class="value">£4,200/month</span>
+                                        </div>
+                                    </div>
+                                    <div class="improvement">
+                                        <span class="percentage">+180%</span>
+                                        <span class="text">Income Increase</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-controls">
+                        <button class="carousel-btn prev">‹</button>
+                        <button class="carousel-btn next">›</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Platform Logos -->
+        <section class="platform-logos">
+            <div class="container">
+                <div class="logos-grid">
+                    <div class="logo-item">🏠 Airbnb</div>
+                    <div class="logo-item">🏨 Booking.com</div>
+                    <div class="logo-item">🏡 Vrbo</div>
+                    <div class="logo-item">🏘️ Expedia</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Income Calculator -->
+        <section id="about" class="income-calculator-section">
+            <div class="container">
+                <div class="calculator-container">
+                    <h2 class="section-title">Calculate Your Potential Income</h2>
+                    <div class="calculator">
+                        <div class="input-group">
+                            <label for="property-value">Property Value (£)</label>
+                            <input type="number" id="property-value" value="250000" min="50000" max="2000000">
+                        </div>
+                        <div class="input-group">
+                            <label for="current-rent">Current Monthly Rent (£)</label>
+                            <input type="number" id="current-rent" value="1200" min="500" max="10000">
+                        </div>
+                        <div class="input-group">
+                            <label for="property-type">Property Type</label>
+                            <select id="property-type">
+                                <option value="apartment">Apartment</option>
+                                <option value="house">House</option>
+                                <option value="studio">Studio</option>
+                                <option value="room">Room</option>
+                            </select>
+                        </div>
+                        <button class="calculate-btn">Calculate Potential Income</button>
+                        <div class="results hidden">
+                            <div class="result-item">
+                                <span class="label">Current Annual Income:</span>
+                                <span class="value" id="current-annual">£14,400</span>
+                            </div>
+                            <div class="result-item">
+                                <span class="label">Potential Annual Income:</span>
+                                <span class="value" id="potential-annual">£45,600</span>
+                            </div>
+                            <div class="result-item highlight">
+                                <span class="label">Income Increase:</span>
+                                <span class="value" id="income-increase">+217%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Our Services -->
+        <section id="services" class="services-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">How My Team and I Help You ✨</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">🏠</div>
+                        <h3>Full Property Management</h3>
+                        <p>We handle everything — from guest bookings to cleaning — so you don't have to lift a finger.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🛌</div>
+                        <h3>Serviced Accommodation Setup</h3>
+                        <p>We transform your property into a guest-ready home that earns you more, faster.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">👥</div>
+                        <h3>HMO Management</h3>
+                        <p>We find great tenants, manage them daily, and keep your property fully compliant.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">🧹</div>
+                        <h3>Professional Cleaning & Maintenance</h3>
+                        <p>Sparkling clean homes = happy guests and better reviews. We've got it covered.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📈</div>
+                        <h3>Maximize Your Income</h3>
+                        <p>We optimize pricing and occupancy so you earn the most — every month.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">📞</div>
+                        <h3>24/7 Guest & Landlord Support</h3>
+                        <p>Problems at 2 AM? No worries. We're always just a call or message away.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works -->
+        <section id="how-it-works" class="how-it-works-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">How It Works</h2>
+                    <p>Our streamlined process makes property management effortless for landlords.</p>
+                </div>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>You hand over your property</h3>
+                            <p>Simply entrust us with your property, and we'll take care of everything from there.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>We optimize and market</h3>
+                            <p>We professionally stage your property, take stunning photos, and list it on all major platforms.</p>
+                        </div>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>You earn passive income</h3>
+                            <p>We handle all guest communications, cleaning, and maintenance while you enjoy steady monthly income.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h2>Ready to Start Earning More?</h2>
+                        <p>Join hundreds of landlords who've already increased their income with our proven system.</p>
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <span class="contact-icon">📧</span>
+                                <span>hello@ayaresidence.com</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📱</span>
+                                <span>+44 (0) 20 1234 5678</span>
+                            </div>
+                            <div class="contact-item">
+                                <span class="contact-icon">📍</span>
+                                <span>London, United Kingdom</span>
+                            </div>
+                        </div>
+                    </div>
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                        </div>
+                        <div class="form-group">
+                            <select id="property-type-contact" name="property-type">
+                                <option value="">Select Property Type</option>
+                                <option value="apartment">Apartment</option>
+                                <option value="house">House</option>
+                                <option value="studio">Studio</option>
+                                <option value="room">Room</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Tell us about your property and goals" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Get Started Today</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Aya Residence Ltd</h3>
+                    <p>Expert in Short-Let & Airbnb Management. Turn empty rooms into steady income — stress-free!</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#contact">Invest With Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                        <a href="#" aria-label="Twitter">🐦</a>
+                        <a href="#" aria-label="Instagram">📸</a>
+                        <a href="#" aria-label="Facebook">📘</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Aya Residence Ltd. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="aya-residence.js"></script>
+</body>
+</html> 
